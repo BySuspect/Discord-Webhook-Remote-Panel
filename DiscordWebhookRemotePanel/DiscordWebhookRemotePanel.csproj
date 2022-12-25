@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+	  <AssemblyName>Discord Webhook Edit Panel</AssemblyName>
+	  <ApplicationIcon>aaa.ico</ApplicationIcon>
+	  <Authors>Made By Shiroko</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="aaa.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
